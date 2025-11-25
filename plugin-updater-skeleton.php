@@ -2,12 +2,13 @@
 /**
  * Plugin Name: Plugin Updater Skeleton
  * Description: Plugin vacío con lógica de actualización desde GitHub, reutilizable en otros plugins.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Alejandro Gimeno Martin
  * License: GPLv2 or later
  * Text Domain: plugin-updater-skeleton
  * Requires at least: 5.8
  * Requires PHP: 7.4
+ * Author URI: https://codigoverso.es
  *
  * Este plugin es un esqueleto sin funcionalidad de negocio. Incluye un sistema de actualizaciones
  * compatible con GitHub Releases para simular el comportamiento del repositorio de WordPress.
