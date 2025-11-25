@@ -37,8 +37,8 @@ add_action('init', function () {
     // Estos valores deberían apuntar a tu repositorio específico
     $config = [
         // Propietario y repositorio
-        'github_user'       => 'tu-usuario',         // ej: codigoverso
-        'github_repo'       => 'tu-repo',            // ej: campos-personalizados
+        'github_user'       => 'Codigoverso',         // ej: codigoverso
+        'github_repo'       => 'BaseGitHubPluginUpdates',            // ej: campos-personalizados
 
         // Opcional: si el repo es privado, puedes usar un token en constantes/filters
         'access_token'      => defined('GITHUB_ACCESS_TOKEN') ? GITHUB_ACCESS_TOKEN : '',
@@ -47,13 +47,13 @@ add_action('init', function () {
         'plugin_file'       => PUS_PLUGIN_FILE,
 
         // Branch por defecto para leer el readme e info
-        'branch'            => 'main',
+        'branch'            => 'feat/PruebasPlugin',
 
         // Si usas releases, habilita esto
         'use_releases'      => true,
 
         // Cache TTL en segundos para llamadas a la API
-        'cache_ttl'         => 30 * MINUTE_IN_SECONDS,
+        'cache_ttl'         => 30,
 
         // Campos opcionales que se usarán para los metadatos del plugin
         'homepage'          => 'https://codigoverso.es',
