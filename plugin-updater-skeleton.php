@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Plugin Updater Skeleton
  * Description: Plugin vacío con lógica de actualización desde GitHub, reutilizable en otros plugins.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Alejandro Gimeno Martin
  * License: GPLv2 or later
  * Text Domain: plugin-updater-skeleton
